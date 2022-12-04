@@ -3,7 +3,7 @@
 
 current_path = window.location.pathname.split('/'); // Array of path directories
 current_path.pop() // Remove last element "index.html"
-web_root_pos = current_path.indexOf("208"); // Position in current_path array of root "208"
+web_root_pos = current_path.indexOf("ECE208-notes"); // Position in current_path array of root "208"
 right_path = current_path.slice(web_root_pos); // Path [web_root, ]
 left_path = current_path.slice(0, web_root_pos); // Path [system root, web_root)
 
